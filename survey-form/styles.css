@@ -1,0 +1,82 @@
+body {
+  font-family: didot;
+  background-image: url('https://images.unsplash.com/photo-1615875622053-51629e0b512c?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: ffffff;
+  width: 100vw;
+  margin: 0;
+}
+
+#title {
+  margin-top: 30px;
+  text-align: center;
+  font-family: didot;
+  margin-bottom: 5px;
+  font-weight: 400;
+}
+
+#description {
+  margin-top: 0;
+  text-align: center;
+  font-style: italic;
+}
+
+#survey-form {
+  background-color: rgba(0,0,0,0.7);
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 10px;
+  max-width: 800px;
+  min-width: 500px;
+}
+
+.form-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto1.25rem auto;
+  padding: 0.25rem;
+}
+
+label {
+  margin-bottom: 10px;
+  width: 90%;
+  font-size: 18px;
+  padding-top: 8px;
+}
+
+input, select {
+  width: 90%;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+textarea {
+  width: 90%;
+  font-size: 16px;
+  height: 100px;
+}
+
+input[type=radio], input[type=checkbox] {
+  height: 20px;
+  margin-left: 20px;
+  width: 10%;
+}
+
+.form-radio, .div-checkbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 5px;
+}
+
+input[type="submit"]{
+  width: 90%;
+  color: white;
+  background: green;
+  border: 1px solid green;
+  margin-bottom: 50px;
+}
